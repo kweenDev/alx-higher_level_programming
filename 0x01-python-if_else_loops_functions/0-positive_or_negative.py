@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import random
 
-def positive_or_negative():
 
+def positive_or_negative():
     """
     Assigns a random signed number to the variable number and
     prints whether it is positive, negative, or zero.
@@ -18,6 +18,6 @@ def positive_or_negative():
     else:
         print("is negative")
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     positive_or_negative()
