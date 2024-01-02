@@ -12,7 +12,7 @@ def no_c(my_string):
     - A new string with 'c' and 'C' removed.
     """
     return ''.join(char for char in my_string if char.lower()
-not in ('c', 'C'))
+                    not in ('c', 'C'))
 
 
 if __name__ == "__main__":
