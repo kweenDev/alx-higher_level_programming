@@ -13,7 +13,7 @@ def delete_at(my_list=[], idx=0):
     - A new list with the item at the specified position removed.
     """
     if 0 <= idx < len(my_list):
-        del(my_list[idx])
+        del (my_list[idx])
     return (my_list)
 
 
