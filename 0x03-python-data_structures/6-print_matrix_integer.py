@@ -9,7 +9,7 @@ def print_matrix_integer(matrix=[[]]):
     - matrix: 2D list of integers to be printed.
     """
     for row in matrix:
-        print(' '.join(map(str, row)))
+        print(' '.join("{:d}".format(num) for num in row))
 
 
 if __name__ == "__main__":
