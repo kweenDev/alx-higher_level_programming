@@ -8,10 +8,6 @@ def print_reversed_list_integer(my_list=[]):
     Args:
     - my_list: List of integers to be printed in reverse.
     """
-    for num in reversed(my_list):
-        print(num)
-
-
-if __name__ == "__main__":
-    my_list = [1, 2, 3, 4, 5]
-    print_reversed_list_integer(my_list)
+     if my_list:
+         for i in reversed(my_list):
+             print('{:d}'.format(i))
