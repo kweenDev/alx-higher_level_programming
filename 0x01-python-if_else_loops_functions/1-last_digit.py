@@ -1,25 +1,16 @@
 #!/usr/bin/python3
 import random
 
-
-def last_digit():
-    """
-    Assigns a random signed number to the variable number and prints the
-    last digit along with additional information.
-    """
-    number = random.randint(-10000, 10000)
-
-    last_digit = abs(number) % 10
-
-    print(f"Last digit of {number} is {last_digit}", end=" ")
-
-    if last_digit > 5:
-        print("and is greater than 5")
-    elif last_digit == 0:
-        print("and is 0")
-    else:
-        print(f"and is less than 6 and not 0")
+number = random.randint(-10000, 10000)
+digit = abs(number) % 10
 
 
-if __name__ == "__main__":
-    last_digit()
+if number < 0:
+    digit = -digit
+print(f"Last digit of {number:d} is {digit:d} and is ", end="")
+if digit > 5:
+    print("greater than 5")
+elif digit == 0:
+    print("0")
+else:
+    print("less than 6 and not 0")
