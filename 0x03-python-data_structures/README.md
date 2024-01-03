@@ -1,65 +1,71 @@
-# Python Data Structures Project
+# 0x03-python-data_structures
 
-Welcome to the Python Data Structures project! This project focuses on implementing various functions to manipulate lists and tuples in Python. Each task is designed to enhance your understanding of Python's data structures.
+This repository contains solutions to various tasks related to Python data structures. Each task is implemented in a separate Python script.
 
-## Table of Contents
-- [Tasks](#tasks)
-- [Requirements](#requirements)
-- [How to Use](#how-to-use)
-- [License](#license)
+## List of Scripts
 
-## Tasks
+1. **0-print_list_integer.py**
+    - Prints all integers of a list.
+    - Prototype: `def print_list_integer(my_list=[]):`
 
-### Task 0: Print a list of integers
-Implement a Python script (`0-print_list_integer.py`) to print all integers of a list.
+2. **1-element_at.py**
+    - Retrieves an element from a list like in C.
+    - Prototype: `def element_at(my_list, idx):`
 
-### Task 1: Secure access to an element in a list
-Write a function (`1-element_at.py`) to retrieve an element from a list securely.
+3. **2-replace_in_list.py**
+    - Replaces an element at a specific position in a list.
+    - Prototype: `def replace_in_list(my_list, idx, element):`
 
-### Task 2: Replace element
-Develop a function (`2-replace_in_list.py`) to replace an element of a list at a specific position.
+4. **3-print_reversed_list_integer.py**
+    - Prints all integers of a list, in reverse order.
+    - Prototype: `def print_reversed_list_integer(my_list=[]):`
 
-### Task 3: Print a list of integers... in reverse!
-Create a function (`3-print_reversed_list_integer.py`) to print all integers of a list in reverse order.
+5. **4-new_in_list.py**
+    - Replaces an element in a list at a specific position without modifying the original list.
+    - Prototype: `def new_in_list(my_list, idx, element):`
 
-### Task 4: Replace in a copy
-Write a function (`4-new_in_list.py`) that replaces an element in a list at a specific position without modifying the original list.
+6. **5-no_c.py**
+    - Removes all characters 'c' and 'C' from a string.
+    - Prototype: `def no_c(my_string):`
 
-### Task 5: Can you C me now?
-Craft a function (`5-no_c.py`) to remove all characters 'c' and 'C' from a string.
+7. **6-print_matrix_integer.py**
+    - Prints a matrix of integers.
+    - Prototype: `def print_matrix_integer(matrix=[[]]):`
 
-### Task 6: Lists of lists = Matrix
-Implement a function (`6-print_matrix_integer.py`) to print a matrix of integers.
+8. **7-add_tuple.py**
+    - Adds two tuples.
+    - Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`
 
-### Task 7: Tuples addition
-Develop a function (`7-add_tuple.py`) that adds two tuples.
+9. **8-multiple_returns.py**
+    - Returns a tuple with the length of a string and its first character.
+    - Prototype: `def multiple_returns(sentence):`
 
-### Task 8: More returns!
-Create a function (`8-multiple_returns.py`) that returns a tuple with the length of a string and its first character.
+10. **9-max_integer.py**
+    - Finds the biggest integer of a list.
+    - Prototype: `def max_integer(my_list=[]):`
 
-### Task 9: Find the max
-Write a function (`9-max_integer.py`) that finds the biggest integer in a list.
+11. **10-divisible_by_2.py**
+    - Finds all multiples of 2 in a list.
+    - Prototype: `def divisible_by_2(my_list=[]):`
 
-### Task 10: Only by 2
-Code a function (`10-divisible_by_2.py`) that finds all multiples of 2 in a list.
+12. **11-delete_at.py**
+    - Deletes the item at a specific position in a list.
+    - Prototype: `def delete_at(my_list=[], idx=0):`
 
-### Task 11: Delete at
-Develop a function (`11-delete_at.py`) that deletes the item at a specific position in a list.
+13. **12-switch.py**
+    - Switches the values of `a` and `b`.
+    - Prototype: `def switch(a, b):`
 
-## Requirements
-- Python 3.8.5
-- Pycodestyle 2.8.*
+14. **13-is_palindrome.c**
+    - Checks if a singly linked list is a palindrome (C code).
+    - Prototype: `int is_palindrome(listint_t **head);`
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd 0x03-python-data_structures
-   ```
+15. **lists.h**
+    - Header file for the linked list tasks in C.
 
-2. Execute each Python script as needed, e.g.:
-```bash
-./0-main.py
-```
+16. **100-print_python_list_info.c**
+    - Prints basic information about Python lists using C.
+    - Prototype: `void print_python_list_info(PyObject *p);`
 
-This project is completed as part of the curriculum for the software engineering course offered by ALX Africa, by Refiloe Radebe.
+## Author
+*Refiloe Radebe*
