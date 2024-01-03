@@ -19,7 +19,8 @@ def list_division(my_list_1, my_list_2, list_length):
         try:
             result = my_list_1[i] / my_list_2[i]
         except (ZeroDivisionError, TypeError):
-            print("division by 0" if isinstance(my_list_2[i], int) and my_list_2[i] == 0 else "wrong type")
+            print("division by 0" if isinstance(
+                my_list_2[i], int) and my_list_2[i] == 0 else "wrong type")
             result = 0
         except (IndexError):
             print("out of range")
