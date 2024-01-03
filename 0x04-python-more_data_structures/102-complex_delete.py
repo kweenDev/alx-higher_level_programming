@@ -3,12 +3,12 @@
 
 def complex_delete(a_dictionary, value):
     """
-    Deletes the item at a specific position in a list.
-
-    :param a_dictionary: The input.
-    :param value: The value to be deleted.
-    :return: The modified dictionary.
+    Deletes the item at a specific position in a dictionary.
     """
-    if 0 <= value < len(a_dictionary):
-        del a_dictionary[value]
-    return a_dictionary
+    keys_to_del = []
+    for key in a_dictionary:
+        if a_dictionary[key] == value:
+            keys_to_del.append(key)
+            for key in keys_to_del:
+                del a_dictionary[key]
+                return a_dictionary
