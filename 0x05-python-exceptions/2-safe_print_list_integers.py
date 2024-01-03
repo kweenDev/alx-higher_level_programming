@@ -8,19 +8,17 @@ def safe_print_list_integers(my_list=[], x=0):
     """
     Print the first x elements of a list containing only integers
     Args:
-    my_list: list to print elements from
-    x: number of elements to print
+        my_list: list to print elements from
+        x: number of elements to print
     Returns:
-    The real number of integers printed
+        The real number of integers printed
     """
     count = 0
-    for i in range(x):
+    for i in range(0, x):
         try:
-            if type(my_list[i]) == int:
-                print("{:d}".format(my_list[i]), end="")
-                count += 1
+            print("{:d}".format(my_list[i]), end="")
+            count += 1
         except (IndexError):
             pass
-        print()
-    finally:
+        print("")
         return (count)
