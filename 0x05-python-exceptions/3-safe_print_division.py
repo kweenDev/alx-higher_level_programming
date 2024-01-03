@@ -14,9 +14,9 @@ def safe_print_division(a, b):
         The value of the division, or None if division by zero
     """
     try:
-        result = a / b
+        div = a / b
     except (TypeError, ZeroDivisionError):
-        result = None
+        div = None
     finally:
-        print("Inside result: {}".format(result))
-    return (None)
+        print("Inside result: {}".format(div))
+    return (div)
