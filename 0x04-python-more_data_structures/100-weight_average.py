@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def weighted_average(my_list=[]):
+def weight_average(my_list=[]):
     """
     Computes the weighted average of a list of tuples.
 
