@@ -2,12 +2,6 @@
 
 
 def roman_to_int(roman_string):
-    """
-    Converts a Roman numeral to an integer.
-
-    :param roman_string: The input Roman numeral string.
-    :return: The corresponding integer value.
-    """
     if not roman_string or type(roman_string) != str:
         return 0
     total = 0
@@ -15,4 +9,4 @@ def roman_to_int(roman_string):
     for roman in reversed(roman_string):
         arabic = digits[roman]
         total += arabic if total < arabic * 5 else -arabic
-        return total
+    return total
