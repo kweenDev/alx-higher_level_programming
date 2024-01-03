@@ -16,7 +16,7 @@ This repository contains solutions to various tasks and challenges related to hi
 9. [Multiply by 2](./9-multiply_by_2.py)
 10. [Best score](./10-best_score.py)
 11. [Multiply by using map](./11-multiply_list_map.py)
-12. [Roman to integer](./12-roman_to_integer.py)
+12. [Roman to integer](./12-roman_to_int.py)
 13. [Weighted average!](./100-weight_average.py)
 14. [Squared by using map](./101-square_matrix_map.py)
 15. [Delete by value](./102-complex_delete.py)
