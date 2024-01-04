@@ -23,3 +23,13 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
+
+# Additional method to display the dictionary representation
+def dict_(self):
+    """Returns a dictionary representation of the Square instance"""
+    return {'_Square__size': self.__size}
+
+
+# Attach the function to the class as a method
+Square.dict_ = dict_
