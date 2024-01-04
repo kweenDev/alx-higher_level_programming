@@ -3,8 +3,8 @@
 
 
 class Square:
-    """Square class with private size attribute, size validation, area calculation,
-    and access/update capabilities for size attribute
+    """Square class with private size attribute, size validation,
+    area calculation, and access/update capabilities for size attribute
     """
 
     def __init__(self, size=0):
