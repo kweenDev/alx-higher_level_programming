@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-# Importing the Rectangle class from the previous module
-from rectangle import Rectangle
-
 
 class Rectangle:
     """Represent a rectangle."""
