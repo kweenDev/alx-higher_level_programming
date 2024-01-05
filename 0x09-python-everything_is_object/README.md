@@ -10,9 +10,11 @@ This repository contains solutions for the tasks related to Python and the conce
 - **Task 1:** Where are you?
   - Function used to get the variable identifier: `id`
 
-- **Task 2 to Task 28:**
+- **Task 2 to Task 28 (excl Task 19):**
   - Detailed explanations for each task.
 
+- **Task 19:** Copy a list object
+  - Function uses the built-in `list()` constructor to create a new list.
 - **Task 29:** #pythonic
   - Function `magic_string` returns a string 'BestSchool' n times based on the number of iterations.
 
