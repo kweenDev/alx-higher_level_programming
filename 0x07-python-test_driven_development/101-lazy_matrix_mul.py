@@ -18,8 +18,10 @@ def lazy_matrix_mul(m_a, m_b):
         np.ndarray: Resulting matrix.
 
     Raises:
-        TypeError: If m_a or m_b is not a list of lists, or if elements are not numeric.
-        ValueError: If m_a or m_b is empty or if matrices cannot be multiplied.
+        TypeError: If m_a or m_b is not a list of lists, or
+        if elements are not numeric.
+        ValueError: If m_a or m_b is empty or if matrices cannot be
+        multiplied.
     """
 
     return (np.matmul(m_a, m_b))
