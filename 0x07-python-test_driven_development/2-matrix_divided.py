@@ -13,10 +13,12 @@ def matrix_divided(matrix, div):
         div (int/float): Divisor.
 
     Returns:
-        list: New matrix with elements divided by div, rounded to 2 decimal places.
+        list: New matrix with elements divided by div, rounded to
+        2 decimal places.
 
     Raises:
-        TypeError: If matrix is not a list of lists, or if div is not a number.
+        TypeError: If matrix is not a list of lists, or if div is
+        not a number.
         ValueError: If matrix is empty or if div is 0.
     """
     if (not isinstance(matrix, list) or matrix == [] or
