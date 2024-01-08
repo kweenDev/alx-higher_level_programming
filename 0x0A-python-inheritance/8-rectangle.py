@@ -2,6 +2,7 @@
 """
     This module extends the BaseGeometry to create a Rectangle class.
 """
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
