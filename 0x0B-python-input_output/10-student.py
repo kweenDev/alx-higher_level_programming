@@ -3,7 +3,7 @@
 
 
 class Student:
-    """Defines a student with first_name, last_name, and age attributes."""
+    """Defines a students attributes."""
 
     def __init__(self, first_name, last_name, age):
         """
@@ -11,12 +11,12 @@ class Student:
         """
         self.first_name = first_name
         self.last_name = last_name
-        self.age - age
+        self.age = age
 
     def to_json(self. attrs=None):
         """
-        Retrieves a dictionary representation of a Student instance with
-        optional attribute filtering.
+        Retrieves a dictionary representation of a Student
+        instance with optional attribute filtering.
         """
         if (type(attrs) == list and
                 all(type(ele) == str for ele in attrs)):
