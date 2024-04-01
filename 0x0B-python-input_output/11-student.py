@@ -19,15 +19,15 @@ class Student:
         Retrieves a dictionary representation of a Student instnace with
         option attribute filtering.
         """
-        if attrs is None:
-            return self.__dict__
-        else:
-            return {attr:getattr(self, attr) for attr in attrs if has attr(self, attr)}
+        if (type(attrs) == list and
+                all(type(ele) == str for ele in attrs)):
+            return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
+        return self.__dict__
 
     def reload_from_json(self, json):
         """
         Replaces all attributes of the Student instance based on
         the provided dictionary.
         """
-        for key, value in json.items():
-            setattr(self, key, value)
+        for k, v in json.items():
+            setattr(self, k, v)
