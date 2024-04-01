@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module adds command-line args to list and save to JSON file"""
+"""Module adds command-line args to list and saves to JSON file"""
 import sys
 from 5-save_to_json_file import save_to_json_file
 from 6-load_from_json_file import load_from_json_file
