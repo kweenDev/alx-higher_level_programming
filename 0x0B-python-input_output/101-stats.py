@@ -25,7 +25,7 @@ def parse_input(line, total_size, status_counts):
             else:
                 status_counts[status_code] = 1
     except ValueError:
-        pass # Ignore lines with incorrect format
+        pass
 
     return total_size, status_counts
 
@@ -37,7 +37,8 @@ def main():
 
     try:
         for line in sys.stdin:
-            total_size, status_counts = parse_input(line, total_size, status_counts)
+            total_size, status_counts = \
+                    parse_input(line, total_size, status_counts)
             line_count += 1
 
             if line_count % 10 == 0:
@@ -45,6 +46,7 @@ def main():
 
     except keyboardInterrupt:
         print_metrics(total_size, status_counts)
+
 
 if __name__ == "__main__":
     main()
