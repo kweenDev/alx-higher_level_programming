@@ -1,4 +1,4 @@
-# 0x0D.SQL - More queries
+# 0x0E.SQL - More queries
 ### SQL and MySQL Continuation Project
 
 This project focuses on SQL queries, database management, and understanding MySQL concepts. Below is a summary of the tasks completed in this project along with brief explanations of the terms and learning objectives.
