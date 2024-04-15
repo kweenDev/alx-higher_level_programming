@@ -1,5 +1,7 @@
 # JavaScript Warm-up
 
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
+
 This project contains several JavaScript scripts that cover various basic concepts and functionalities of JavaScript programming language.
 
 ## Scripts Overview
