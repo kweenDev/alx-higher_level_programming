@@ -1,5 +1,7 @@
 #!/usr/bin/node
-// 0-rectangle.js
+/**
+* Represents a rectangle
+*/
 class Rectangle {}
 
 module.exports = Rectangle
